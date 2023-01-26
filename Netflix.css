@@ -1,0 +1,442 @@
+body{
+    
+    font-family: sans-serif;
+}
+.image{
+     
+    background: rgba(0,0,0,0);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply; 
+    background-image: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.8)),color-stop(60%,rgba(0,0,0,0)),to(rgba(0,0,0,.8)));
+    background:-moz-radial-gradient(transparent, rgba(0, 0, 0.3) );
+    background-image: linear-gradient(to top,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+.symbol-forward{
+    z-index: 100;
+    position: relative;
+
+}
+.concord-img{
+    width: 100%;
+    transform: none;
+    height: 80%;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+     
+
+}
+.logo-icon{
+    position:absolute;
+    width: 120px;
+    top: 5px;
+    left: 4%;
+    object-fit: cover;
+    transform: none;
+    webkit-transform: none;
+
+}
+
+.img-logo{
+    width: 134px;
+}
+.nav-btn{
+    position:absolute;
+    top: 25px;
+    left: 78%;
+}
+.selector{border-radius:2px ;
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
+    line-height: 1.3em;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 37px;
+    width: 113px;
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    border-top-color: rgb(170, 170, 170);
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-size: .875rem;
+    padding: 0.25rem 1.375rem;
+}
+.signin-btn {
+    position: relative;
+    top: -37px;
+    left: 125px;
+    
+}
+.signin{
+     
+     
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    border: none;
+    border-radius:3px;
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    padding-top: 7px;
+    padding-right: 17px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+}
+.headings{
+    position: absolute;
+    line-height: 1.1;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    margin: -43% 30% ;
+}
+.heading-h1 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    width: 600px;
+    
+
+
+}
+.heading-about{
+    font-size:1.625rem;
+    font-family: sans-serif;
+    margin-left:-14% ;
+    margin-top: 2.5%;
+}
+.about-email{
+     width: 700px;
+    color: #fff;
+    font-family:sans-serif;
+    font-weight: 500;
+    padding-top: 25px;
+    margin-left: -5%;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+.inter-email-container{
+    
+}
+
+.email-input{
+    position: absolute;
+    margin: -340px 0px 0px 415px;
+    z-index: 100;
+    font-size: 1.3rem;
+    border: none;
+    border-style: none;
+    padding-left:10px ;
+    height: 60px;
+    width: 450px;
+    background-color: #fff;
+    border-radius:1px;
+}
+
+.email-input:hover{
+    border: none;
+}
+.email-btn{
+    position:absolute;
+    z-index: 100;
+    padding: 0px 0px 0px 10px;
+    color: #fff;
+    font-family: sans-serif;
+    border: none;
+    font-size: 1.7rem;
+    width: 200px;
+    font-weight: 460;
+    height: 60px;
+    background-color: #e50914;
+    margin: -340px 0px 0px 865px;
+}
+.hr1{
+    background-color: rgb(78, 78, 78);
+    position:relative;
+    opacity: 1;
+    background-image:cover;
+    
+}
+.user-story{
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+    height: 473.92px;
+    
+}
+.heading-user{
+    margin-left: 0px;
+}
+.user-story1{
+    position: absolute;   
+    object-fit: cover;
+    color: #fff;
+     
+    
+}
+.heading-user-story1{
+    padding-top:110px;
+    line-height:1.1;
+     margin-left: 70px;
+    font-weight: 600;
+    font-size: 50px;
+     width:  550px;
+   
+}
+.heading-user-story2{
+    margin-left:70px;
+    padding-top:20px;
+    line-height:1.5;
+    font-size: 1.625rem;
+    font-weight: 400px;
+    width:550px;
+}
+.imageTV{
+     display: inline-block;
+    border: 0;
+    top: -193.5px;left: 20px;
+    height: 390.65px;
+    width: 520px;
+    z-index: 2;
+    margin-left: 40px;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.video-tv-play{
+    position: relative;
+    top: 100px;
+    margin-left:40px;
+    left:0px;
+    height: 213px ;
+    width: 556px;
+    display: block;
+}     
+
+.mob{
+    display: inline-block;
+    border: 0;
+    top: 0px;left: -10px;
+    height: 390.65px;
+    width: 520px;
+    margin-left: 0px;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.book-box{
+    position: relative;
+    top: -125px;
+    border-radius:10px;
+    background-color: #000000;
+    left: 13.5%;
+    z-index: 100;
+    width: 55%;
+    height: 100px;
+    border: 2px solid rgba(255,255,255,.25);
+
+}
+.img-mini-box{
+    position: relative;
+    margin: 10px ;
+}
+.img-box-heading{
+    top: 15px;
+    position: relative;
+    display: inline-block;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.img-box-downloading{
+    position: relative;
+    font-size: .9em;
+    font-weight: normal;
+    color: #0071eb;   
+}
+.img-mini-download-png{
+    position: relative;
+    height: 3em;
+    width: 3em;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    right: 10px;
+    top: 25px;
+}
+.story2{
+    margin-left:-8%;
+    padding: 0;
+}
+
+.watch-everywhere-img{
+    z-index: 2;
+}
+.play-everywhere{
+    position: relative;
+    height: 180px;
+    top: 45px;
+    z-index: 2;
+}
+.children-img-heading{
+    width: 520px;
+}
+.children-image{
+    top: 80px;
+}
+
+.question-box{
+    height: 930px;
+    width: 100%; 
+    background-color:#000000;
+
+}
+.faq-que-heading{
+     text-align: center;
+    color: #fff;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    padding: 60px 0px 30px 0px  ;
+    font-weight: 600;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.list-of-frquently-questions{
+    justify-content: center;
+    padding: 0% 25% 0% 20%;
+    width: 100%;
+}
+
+
+
+.list-of-items{
+    list-style: none;
+    width:100%;
+    left: 50%;
+     
+}
+
+.faq-question-list{
+    width: 852px;
+    margin-bottom:10px;
+    
+}
+.faq-ques{
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+    width: 815px;
+    height: 75.92px;
+    text-align: left;
+    padding:20px  30px;
+    border: none;
+    cursor: pointer;
+}
+#add-icon{
+    float: right;
+    font-weight: 400;
+
+}
+#close-icon{
+    float: right;
+    position: relative;
+    right: -35px;
+    display: none;
+}
+.faq-ans{
+    margin-top: 10px;
+    width: 815px;
+    padding: 20px;
+    margin-bottom:10px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.625rem;
+    display: none;
+
+}
+.faq-ques:hover > .faq-ans{
+    display: block;
+    opacity: 1;
+}
+.faq-question-list:hover >.faq-ans{
+    display: block;
+    transition: all 0.02s;
+}
+.para{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: 70px;
+    font-size: 1.2rem;
+}
+.input-box2{
+    position: relative;
+    top: 440px;
+    left: -35px;
+}
+
+/* ----------footer----------------*/
+
+.footer-box{
+    width: 100%;
+    height: 397.53px;
+    background-color: #000000;
+    color: #fff;
+    justify-content: center;
+    padding:5% 25% 1% 13%;
+     
+}
+.call-for-question{
+    padding:2% 0%  3% 9.5%; 
+    color: #757575;
+}
+.footer-items1{
+    position: relative;
+    display: block;
+    
+}
+.footer-items2{
+    position: relative;
+    display:inline-block;
+    
+}
+.list-of-links{
+    position: relative;
+    list-style: none;
+    color: #757575;
+    
+}
+.links-of-items{
+    text-decoration: none;
+    display: inline-block;
+    color: #757575;
+}
+.list-items{
+    display: inline-block;
+    color: #757575;
+    margin-left: 3.1em;
+    font-size:15px;
+    margin-bottom: 2px;
+    list-style-type: disc;
+}
